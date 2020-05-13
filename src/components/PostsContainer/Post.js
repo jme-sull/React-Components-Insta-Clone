@@ -15,7 +15,6 @@ const Post = props => {
     return updateLikes(likes + 1)
   }
 
-  
 
   // set up state for the likes
 
@@ -35,10 +34,7 @@ const Post = props => {
         />
       </div>
       <LikeSection likes = {likes} likesHandler = {likesHandler}/>
-      <CommentSection
-        postId={props.post.imageUrl}
-        comments={props.post.comments}
-      />
+      <CommentSection postId={props.post.imageUrl} comments={props.post.comments} />
     </div>
   );
 };
