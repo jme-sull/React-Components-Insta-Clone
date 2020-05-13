@@ -12,7 +12,6 @@ import SearchBar from "./components/SearchBar/SearchBarContainer.js"
 
 
 const App = () => {
-
   return (
     <div className="App">
       {/* Add imported components here to render them */}
@@ -26,3 +25,4 @@ const App = () => {
 };
 
 export default App;
+
