@@ -8,25 +8,25 @@ import data from '../../dummy-data.js'
 
 const SearchBar = () => {
 
-const [searchTerm, setSearchTerm] = useState('')
+// const [searchTerm, setSearchTerm] = useState('')
 
 
-const usernameArray = data.map(dataObj => {
-   return dataObj.username
-})
+// const usernameArray = data.map(dataObj => {
+//    return dataObj.username
+// })
 
-const filterUsers = usernameArray => {
-  return usernameArray.filter(item => {
-    if (!searchTerm) {
-      return item
-    }
-    if item.toLowerCase().includes(searchTerm.toLowerCase())) {
-      return item 
-    }
-  }
+// const filterUsers = usernameArray => {
+//   return usernameArray.filter(item => {
+//     if (!searchTerm) {
+//       return item
+//     }
+//     if item.toLowerCase().includes(searchTerm.toLowerCase())) {
+//       return item 
+//     }
+//   }
   
 
-}
+// }
 
 // const filterFriends = friends => {
 //   return friends.filter(friendObj => {
